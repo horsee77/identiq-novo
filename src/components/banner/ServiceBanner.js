@@ -1,5 +1,6 @@
 "use client";
 import React from "react";
+import Link from "next/link";
 
 function ServiceBanner() {
   return (
@@ -13,11 +14,11 @@ function ServiceBanner() {
                 data-wow-offset={120}
                 data-wow-delay=".2s"
               >
-                <a href="/">Home</a>
+                <Link href="/">Home</Link>
                 <i className="fa-regular fa-chevron-right" />
-                <a className="current" href="/service">
+                <Link href="/service" className="current">
                   Soluções
-                </a>
+                </Link>
               </div>
 
               <h1
