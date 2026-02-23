@@ -12485,7 +12485,7 @@ li.has-dropdown:hover .submenu {
 .rts-mega-menu.with-add .menu-right-add {
   display: flex;
   justify-content: flex-end;
-  align-items: end;
+  align-items: flex-end;
   max-width: max-content;
   margin-left: auto;
   position: relative;
