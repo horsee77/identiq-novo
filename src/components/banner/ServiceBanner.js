@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 
 function ServiceBanner() {
@@ -32,8 +33,8 @@ function ServiceBanner() {
                 data-wow-offset={120}
                 data-wow-delay=".6s"
               >
-                Verificação de identidade, antifraude e compliance com decisões
-                em tempo real, regras configuráveis e trilhas para auditoria.
+                Verificação de identidade, antifraude e compliance com decisões em
+                tempo real, regras configuráveis e trilhas para auditoria.
               </p>
             </div>
           </div>
@@ -43,7 +44,7 @@ function ServiceBanner() {
               <img
                 className="jarallax-img"
                 src="/assets/images/service/04.webp"
-                alt="Service banner"
+                alt="service-area"
               />
             </div>
           </div>
@@ -53,12 +54,12 @@ function ServiceBanner() {
       <div className="shape-area-start">
         <img
           src="/assets/images/banner/06.png"
-          alt="Service banner shape 1"
+          alt="service-banner-shape"
           className="one wow move-right"
         />
         <img
           src="/assets/images/banner/07.png"
-          alt="Service banner shape 2"
+          alt="service-banner-shape"
           className="two wow move-left"
         />
       </div>
