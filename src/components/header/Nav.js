@@ -32,21 +32,21 @@ function Nav() {
                                                 </li>
 
                                                 <li>
-                                                    <Link href="/kyc">
+                                                    <Link href="/solucoes/kyc">
                                                         <i className="fa-sharp fa-regular fa-chevron-right" />
                                                         KYC e Onboarding
                                                     </Link>
                                                 </li>
 
                                                 <li>
-                                                    <Link href="/documentos">
+                                                    <Link href="/solucoes/documentos">
                                                         <i className="fa-sharp fa-regular fa-chevron-right" />
                                                         Validação de Documentos
                                                     </Link>
                                                 </li>
 
                                                 <li>
-                                                    <Link href="/biometria">
+                                                    <Link href="/solucoes/biometria">
                                                         <i className="fa-sharp fa-regular fa-chevron-right" />
                                                         Biometria e Prova de Vida
                                                     </Link>

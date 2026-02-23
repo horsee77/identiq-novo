@@ -12,7 +12,7 @@ import { Icon } from "@iconify/react";
 
 export default function Home() {
   return (
-    <div className="#">
+    <div>
       <HeaderTwo />
 
       {/* banner */}
@@ -21,7 +21,11 @@ export default function Home() {
           <div className="row d-flex align-items-center">
             <div className="col-lg-7 mb_md--30 mb_sm--30">
               <div className="service-banner-content-wrapper">
-                <div className="bread-plug wow fadeInUp" data-wow-offset={120} data-wow-delay=".2s">
+                <div
+                  className="bread-plug wow fadeInUp"
+                  data-wow-offset={120}
+                  data-wow-delay=".2s"
+                >
                   <a href="/">Home</a>
                   <i className="fa-regular fa-chevron-right" />
                   <a href="/produto/plataforma">Produto</a>
@@ -31,24 +35,44 @@ export default function Home() {
                   </a>
                 </div>
 
-                <h1 className="title wow fadeInUp" data-wow-offset={120} data-wow-delay=".4s">
+                <h1
+                  className="title wow fadeInUp"
+                  data-wow-offset={120}
+                  data-wow-delay=".4s"
+                >
                   Plataforma Identiq para verificação, risco e compliance
                 </h1>
 
-                <p className="disc wow fadeInUp" data-wow-offset={120} data-wow-delay=".6s">
+                <p
+                  className="disc wow fadeInUp"
+                  data-wow-offset={120}
+                  data-wow-delay=".6s"
+                >
                   Configure jornadas, regras e decisões em um só lugar. Acompanhe trilhas, evidências e
                   performance do fluxo com visão completa da operação.
                 </p>
 
                 <div className="d-flex gap-3 mt--30">
-                  <a href="/contato" className="rts-btn btn-primary wow fadeInUp" data-wow-delay=".7s">
+                  <a
+                    href="/contato"
+                    className="rts-btn btn-primary wow fadeInUp"
+                    data-wow-delay=".7s"
+                  >
                     Falar com especialista
-                    <img className="injectable" src="../assets/images/service/icons/13.svg" alt="arrow" />
+                    <img
+                      className="injectable"
+                      src="/assets/images/service/icons/13.svg"
+                      alt="arrow"
+                    />
                   </a>
 
-                  <a href="/produto/api" className="rts-btn btn-border btn-bold wow fadeInUp" data-wow-delay=".8s">
+                  <a
+                    href="/produto/api"
+                    className="rts-btn btn-border btn-bold wow fadeInUp"
+                    data-wow-delay=".8s"
+                  >
                     Ver API e webhooks
-                    <img src="../assets/images/service/icons/13.svg" alt="arrow" />
+                    <img src="/assets/images/service/icons/13.svg" alt="arrow" />
                   </a>
                 </div>
               </div>
@@ -56,15 +80,27 @@ export default function Home() {
 
             <div className="col-lg-5">
               <div className="thumbnail-bannr-service-right jarallax">
-                <img className="jarallax-img" src="../assets/images/service/04.webp" alt="plataforma" />
+                <img
+                  className="jarallax-img"
+                  src="/assets/images/service/04.webp"
+                  alt="plataforma"
+                />
               </div>
             </div>
           </div>
         </div>
 
         <div className="shape-area-start">
-          <img src="../assets/images/banner/06.png" alt="shape" className="one wow move-right" />
-          <img src="../assets/images/banner/07.png" alt="shape" className="two wow move-left" />
+          <img
+            src="/assets/images/banner/06.png"
+            alt="shape"
+            className="one wow move-right"
+          />
+          <img
+            src="/assets/images/banner/07.png"
+            alt="shape"
+            className="two wow move-left"
+          />
         </div>
       </div>
 
@@ -93,7 +129,11 @@ export default function Home() {
                 <div className="title-area">
                   <a href="/produto/plataforma">
                     <h3 className="title animated fadeIn">Plataforma</h3>
-                    <img className="injectable" src="../assets/images/service/icons/21.svg" alt="arrow" />
+                    <img
+                      className="injectable"
+                      src="/assets/images/service/icons/21.svg"
+                      alt="arrow"
+                    />
                   </a>
                 </div>
               </div>
@@ -107,7 +147,11 @@ export default function Home() {
                 <div className="title-area">
                   <a href="/produto/api">
                     <h3 className="title animated fadeIn">API e webhooks</h3>
-                    <img className="injectable" src="../assets/images/service/icons/21.svg" alt="arrow" />
+                    <img
+                      className="injectable"
+                      src="/assets/images/service/icons/21.svg"
+                      alt="arrow"
+                    />
                   </a>
                 </div>
               </div>
@@ -121,7 +165,11 @@ export default function Home() {
                 <div className="title-area">
                   <a href="/produto/workflows">
                     <h3 className="title animated fadeIn">Workflows e regras</h3>
-                    <img className="injectable" src="../assets/images/service/icons/21.svg" alt="arrow" />
+                    <img
+                      className="injectable"
+                      src="/assets/images/service/icons/21.svg"
+                      alt="arrow"
+                    />
                   </a>
                 </div>
               </div>
@@ -135,7 +183,11 @@ export default function Home() {
                 <div className="title-area">
                   <a href="/produto/seguranca">
                     <h3 className="title animated fadeIn">Segurança</h3>
-                    <img className="injectable" src="../assets/images/service/icons/21.svg" alt="arrow" />
+                    <img
+                      className="injectable"
+                      src="/assets/images/service/icons/21.svg"
+                      alt="arrow"
+                    />
                   </a>
                 </div>
               </div>
@@ -150,9 +202,18 @@ export default function Home() {
           <div className="row">
             <div className="col-lg-12">
               {/* item 1 */}
-              <div className="single-service-list wow fadeInUp" data-wow-offset={120} data-wow-delay=".2s">
+              <div
+                className="single-service-list wow fadeInUp"
+                data-wow-offset={120}
+                data-wow-delay=".2s"
+              >
                 <div className="icon">
-                  <Icon icon="mdi:clipboard-check-outline" width="44" height="44" style={{ color: "#fff" }} />
+                  <Icon
+                    icon="mdi:clipboard-check-outline"
+                    width="44"
+                    height="44"
+                    style={{ color: "#fff" }}
+                  />
                 </div>
                 <div className="main-information-area">
                   <h3 className="title">Configurar regras e rotas</h3>
@@ -161,15 +222,22 @@ export default function Home() {
                     consistência.
                   </p>
                 </div>
-                <a href="/solucoes/auditoria"  aria-label="Ir para Auditoria e trilhas">
-                  
-                </a>
+                <a href="/solucoes/auditoria" aria-label="Ir para Auditoria e trilhas"></a>
               </div>
 
               {/* item 2 */}
-              <div className="single-service-list wow fadeInUp" data-wow-offset={120} data-wow-delay=".4s">
+              <div
+                className="single-service-list wow fadeInUp"
+                data-wow-offset={120}
+                data-wow-delay=".4s"
+              >
                 <div className="icon">
-                  <Icon icon="mdi:timeline-check-outline" width="44" height="44" style={{ color: "#fff" }} />
+                  <Icon
+                    icon="mdi:timeline-check-outline"
+                    width="44"
+                    height="44"
+                    style={{ color: "#fff" }}
+                  />
                 </div>
                 <div className="main-information-area">
                   <h3 className="title">Trilhas e evidências por caso</h3>
@@ -177,15 +245,22 @@ export default function Home() {
                     Acompanhe eventos, decisões e reprocessos com histórico para auditoria e governança.
                   </p>
                 </div>
-                <a href="/solucoes/auditoria"  aria-label="Ir para Auditoria e trilhas">
-                  
-                </a>
+                <a href="/solucoes/auditoria" aria-label="Ir para Auditoria e trilhas"></a>
               </div>
 
               {/* item 3 */}
-              <div className="single-service-list wow fadeInUp" data-wow-offset={120} data-wow-delay=".6s">
+              <div
+                className="single-service-list wow fadeInUp"
+                data-wow-offset={120}
+                data-wow-delay=".6s"
+              >
                 <div className="icon">
-                  <Icon icon="mdi:account-search-outline" width="44" height="44" style={{ color: "#fff" }} />
+                  <Icon
+                    icon="mdi:account-search-outline"
+                    width="44"
+                    height="44"
+                    style={{ color: "#fff" }}
+                  />
                 </div>
                 <div className="main-information-area">
                   <h3 className="title">Revisão manual quando necessário</h3>
@@ -194,15 +269,22 @@ export default function Home() {
                     rápida.
                   </p>
                 </div>
-                <a href="/solucoes/auditoria"  aria-label="Ir para Auditoria e trilhas">
-                  
-                </a>
+                <a href="/solucoes/auditoria" aria-label="Ir para Auditoria e trilhas"></a>
               </div>
 
               {/* item 4 */}
-              <div className="single-service-list wow fadeInUp" data-wow-offset={120} data-wow-delay=".8s">
+              <div
+                className="single-service-list wow fadeInUp"
+                data-wow-offset={120}
+                data-wow-delay=".8s"
+              >
                 <div className="icon">
-                  <Icon icon="mdi:chart-line" width="44" height="44" style={{ color: "#fff" }} />
+                  <Icon
+                    icon="mdi:chart-line"
+                    width="44"
+                    height="44"
+                    style={{ color: "#fff" }}
+                  />
                 </div>
                 <div className="main-information-area">
                   <h3 className="title">Performance do fluxo</h3>
@@ -211,14 +293,13 @@ export default function Home() {
                     contínua.
                   </p>
                 </div>
-                <a href="/solucoes/auditoria"  aria-label="Ir para Auditoria e trilhas">
-                  
-                </a>
+                <a href="/solucoes/auditoria" aria-label="Ir para Auditoria e trilhas"></a>
               </div>
             </div>
           </div>
         </div>
       </div>
+
       {/* segmentos */}
       <MoreSolutions />
 
