@@ -34,8 +34,8 @@ function ServiceBanner() {
                   data-wow-offset={120}
                   data-wow-delay=".6s"
                 >
-                  Verificação de identidade, antifraude e compliance com decisões em tempo real, regras
-                  configuráveis e trilhas para auditoria.
+                  Verificação de identidade, antifraude e compliance com decisões
+                  em tempo real, regras configuráveis e trilhas para auditoria.
                 </p>
               </div>
             </div>
@@ -45,7 +45,7 @@ function ServiceBanner() {
                 <img
                   className="jarallax-img"
                   src="assets/images/service/04.webp"
-                  alt="serivce-area"
+                  alt="service-area"
                 />
               </div>
             </div>
