@@ -60,7 +60,7 @@ export default function Home() {
                     data-wow-delay=".7s"
                   >
                     Falar com especialista
-                    <img
+                    <Image
                       className="injectable"
                       src="/assets/images/service/icons/13.svg"
                       alt="arrow"
@@ -73,7 +73,7 @@ export default function Home() {
                     data-wow-delay=".8s"
                   >
                     Ver API e webhooks
-                    <img src="/assets/images/service/icons/13.svg" alt="arrow" />
+                    <Image src="/assets/images/service/icons/13.svg" alt="arrow" />
                   </Link>
                 </div>
               </div>

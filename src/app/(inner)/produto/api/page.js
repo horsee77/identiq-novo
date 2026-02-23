@@ -60,7 +60,7 @@ export default function Home() {
                     data-wow-delay=".7s"
                   >
                     Falar com especialista
-                    <img
+                    <Image
                       className="injectable"
                       src="/assets/images/service/icons/13.svg"
                       alt="arrow"
@@ -73,7 +73,7 @@ export default function Home() {
                     data-wow-delay=".8s"
                   >
                     Ver workflows e regras
-                    <img src="/assets/images/service/icons/13.svg" alt="arrow" />
+                    <Image src="/assets/images/service/icons/13.svg" alt="arrow" />
                   </Link>
                 </div>
               </div>
@@ -81,19 +81,19 @@ export default function Home() {
 
             <div className="col-lg-5">
               <div className="thumbnail-bannr-service-right jarallax">
-                <img className="jarallax-img" src="/assets/images/service/04.webp" alt="api" />
+                <Image className="jarallax-img" src="/assets/images/service/04.webp" alt="api" />
               </div>
             </div>
           </div>
         </div>
 
         <div className="shape-area-start">
-          <img
+          <Image
             src="/assets/images/banner/06.png"
             alt="shape"
             className="one wow move-right"
           />
-          <img
+          <Image
             src="/assets/images/banner/07.png"
             alt="shape"
             className="two wow move-left"
@@ -126,7 +126,7 @@ export default function Home() {
                 <div className="title-area">
                   <Link href="/produto/plataforma">
                     <h3 className="title animated fadeIn">Plataforma</h3>
-                    <img
+                    <Image
                       className="injectable"
                       src="/assets/images/service/icons/21.svg"
                       alt="arrow"
@@ -144,7 +144,7 @@ export default function Home() {
                 <div className="title-area">
                   <Link href="/produto/api">
                     <h3 className="title animated fadeIn">API e webhooks</h3>
-                    <img
+                    <Image
                       className="injectable"
                       src="/assets/images/service/icons/21.svg"
                       alt="arrow"
@@ -162,7 +162,7 @@ export default function Home() {
                 <div className="title-area">
                   <Link href="/produto/workflows">
                     <h3 className="title animated fadeIn">Workflows e regras</h3>
-                    <img
+                    <Image
                       className="injectable"
                       src="/assets/images/service/icons/21.svg"
                       alt="arrow"
@@ -180,7 +180,7 @@ export default function Home() {
                 <div className="title-area">
                   <Link href="/produto/seguranca">
                     <h3 className="title animated fadeIn">Segurança</h3>
-                    <img
+                    <Image
                       className="injectable"
                       src="/assets/images/service/icons/21.svg"
                       alt="arrow"
