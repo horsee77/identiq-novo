@@ -3,6 +3,7 @@
 
 "use client";
 
+import Link from "next/link";
 import BackToTop from "@/components/common/BackToTop";
 import FooterOne from "@/components/footer/FooterOne";
 import HeaderTwo from "@/components/header/HeaderTwo";
@@ -22,13 +23,13 @@ export default function Home() {
             <div className="col-lg-7 mb_md--30 mb_sm--30">
               <div className="service-banner-content-wrapper">
                 <div className="bread-plug wow fadeInUp" data-wow-offset={120} data-wow-delay=".2s">
-                  <a href="/">Home</a>
+                  <Link href="/">Home</Link>
                   <i className="fa-regular fa-chevron-right" />
-                  <a href="/produto/plataforma">Produto</a>
+                  <Link href="/produto/plataforma">Produto</Link>
                   <i className="fa-regular fa-chevron-right" />
-                  <a className="current" href="/produto/workflows">
+                  <Link className="current" href="/produto/workflows">
                     Workflows e regras
-                  </a>
+                  </Link>
                 </div>
 
                 <h1 className="title wow fadeInUp" data-wow-offset={120} data-wow-delay=".4s">
@@ -41,15 +42,15 @@ export default function Home() {
                 </p>
 
                 <div className="d-flex gap-3 mt--30">
-                  <a href="/contato" className="rts-btn btn-primary wow fadeInUp" data-wow-delay=".7s">
+                  <Link href="/contato" className="rts-btn btn-primary wow fadeInUp" data-wow-delay=".7s">
                     Falar com especialista
                     <img className="injectable" src="../assets/images/service/icons/13.svg" alt="arrow" />
-                  </a>
+                  </Link>
 
-                  <a href="/produto/api" className="rts-btn btn-border btn-bold wow fadeInUp" data-wow-delay=".8s">
+                  <Link href="/produto/api" className="rts-btn btn-border btn-bold wow fadeInUp" data-wow-delay=".8s">
                     Ver API e webhooks
                     <img src="../assets/images/service/icons/13.svg" alt="arrow" />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -91,10 +92,10 @@ export default function Home() {
                   <Icon icon="mdi:view-dashboard-outline" width="44" height="44" />
                 </div>
                 <div className="title-area">
-                  <a href="/produto/plataforma">
+                  <Link href="/produto/plataforma">
                     <h3 className="title animated fadeIn">Plataforma</h3>
                     <img className="injectable" src="../assets/images/service/icons/21.svg" alt="arrow" />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -105,10 +106,10 @@ export default function Home() {
                   <Icon icon="mdi:api" width="44" height="44" />
                 </div>
                 <div className="title-area">
-                  <a href="/produto/api">
+                  <Link href="/produto/api">
                     <h3 className="title animated fadeIn">API e webhooks</h3>
                     <img className="injectable" src="../assets/images/service/icons/21.svg" alt="arrow" />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -119,10 +120,10 @@ export default function Home() {
                   <Icon icon="mdi:clipboard-check-outline" width="44" height="44" />
                 </div>
                 <div className="title-area">
-                  <a href="/produto/workflows">
+                  <Link href="/produto/workflows">
                     <h3 className="title animated fadeIn">Workflows e regras</h3>
                     <img className="injectable" src="../assets/images/service/icons/21.svg" alt="arrow" />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -133,10 +134,10 @@ export default function Home() {
                   <Icon icon="mdi:shield-check-outline" width="44" height="44" />
                 </div>
                 <div className="title-area">
-                  <a href="/produto/seguranca">
+                  <Link href="/produto/seguranca">
                     <h3 className="title animated fadeIn">Segurança</h3>
                     <img className="injectable" src="../assets/images/service/icons/21.svg" alt="arrow" />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -160,8 +161,8 @@ export default function Home() {
                     Crie fluxos diferentes por produto, canal e perfil, definindo quando exigir validações.
                   </p>
                 </div>
-                <a href="/solucoes/auditoria"  aria-label="Ir para Auditoria e trilhas">
-                  
+                <a href="/solucoes/auditoria" aria-label="Ir para Auditoria e trilhas">
+
                 </a>
               </div>
 
@@ -176,8 +177,8 @@ export default function Home() {
                     Defina critérios por valor, risco e comportamento para aprovar, revisar ou bloquear.
                   </p>
                 </div>
-                <a href="/solucoes/auditoria"  aria-label="Ir para Auditoria e trilhas">
-                  
+                <a href="/solucoes/auditoria" aria-label="Ir para Auditoria e trilhas">
+
                 </a>
               </div>
 
@@ -192,8 +193,8 @@ export default function Home() {
                     Ajuste thresholds e combinações de sinais para reduzir bloqueios desnecessários e aumentar aprovação.
                   </p>
                 </div>
-                <a href="/solucoes/auditoria"  aria-label="Ir para Auditoria e trilhas">
-                  
+                <a href="/solucoes/auditoria" aria-label="Ir para Auditoria e trilhas">
+
                 </a>
               </div>
 
@@ -208,8 +209,8 @@ export default function Home() {
                     Direcione casos para revisão manual quando necessário e mantenha evidências para auditoria.
                   </p>
                 </div>
-                <a href="/solucoes/auditoria"  aria-label="Ir para Auditoria e trilhas">
-                  
+                <a href="/solucoes/auditoria" aria-label="Ir para Auditoria e trilhas">
+
                 </a>
               </div>
             </div>
@@ -217,7 +218,6 @@ export default function Home() {
         </div>
       </div>
 
-    
       {/* segmentos */}
       <MoreSolutions />
 

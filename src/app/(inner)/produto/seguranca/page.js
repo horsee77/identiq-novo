@@ -3,6 +3,7 @@
 
 "use client";
 
+import Link from "next/link";
 import BackToTop from "@/components/common/BackToTop";
 import FooterOne from "@/components/footer/FooterOne";
 import HeaderTwo from "@/components/header/HeaderTwo";
@@ -26,13 +27,13 @@ export default function Home() {
                   data-wow-offset={120}
                   data-wow-delay=".2s"
                 >
-                  <a href="/">Home</a>
+                  <Link href="/">Home</Link>
                   <i className="fa-regular fa-chevron-right" />
-                  <a href="/produto/plataforma">Produto</a>
+                  <Link href="/produto/plataforma">Produto</Link>
                   <i className="fa-regular fa-chevron-right" />
-                  <a className="current" href="/produto/seguranca">
+                  <Link className="current" href="/produto/seguranca">
                     Segurança
-                  </a>
+                  </Link>
                 </div>
 
                 <h1
@@ -53,7 +54,7 @@ export default function Home() {
                 </p>
 
                 <div className="d-flex gap-3 mt--30">
-                  <a
+                  <Link
                     href="/contato"
                     className="rts-btn btn-primary wow fadeInUp"
                     data-wow-delay=".7s"
@@ -64,16 +65,16 @@ export default function Home() {
                       src="/assets/images/service/icons/13.svg"
                       alt="arrow"
                     />
-                  </a>
+                  </Link>
 
-                  <a
+                  <Link
                     href="/produto/api"
                     className="rts-btn btn-border btn-bold wow fadeInUp"
                     data-wow-delay=".8s"
                   >
                     Ver API e webhooks
                     <img src="/assets/images/service/icons/13.svg" alt="arrow" />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -127,14 +128,14 @@ export default function Home() {
                   <Icon icon="mdi:view-dashboard-outline" width="44" height="44" />
                 </div>
                 <div className="title-area">
-                  <a href="/produto/plataforma">
+                  <Link href="/produto/plataforma">
                     <h3 className="title animated fadeIn">Plataforma</h3>
                     <img
                       className="injectable"
                       src="/assets/images/service/icons/21.svg"
                       alt="arrow"
                     />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -145,14 +146,14 @@ export default function Home() {
                   <Icon icon="mdi:api" width="44" height="44" />
                 </div>
                 <div className="title-area">
-                  <a href="/produto/api">
+                  <Link href="/produto/api">
                     <h3 className="title animated fadeIn">API e webhooks</h3>
                     <img
                       className="injectable"
                       src="/assets/images/service/icons/21.svg"
                       alt="arrow"
                     />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -163,14 +164,14 @@ export default function Home() {
                   <Icon icon="mdi:clipboard-check-outline" width="44" height="44" />
                 </div>
                 <div className="title-area">
-                  <a href="/produto/workflows">
+                  <Link href="/produto/workflows">
                     <h3 className="title animated fadeIn">Workflows e regras</h3>
                     <img
                       className="injectable"
                       src="/assets/images/service/icons/21.svg"
                       alt="arrow"
                     />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -181,14 +182,14 @@ export default function Home() {
                   <Icon icon="mdi:shield-check-outline" width="44" height="44" />
                 </div>
                 <div className="title-area">
-                  <a href="/produto/seguranca">
+                  <Link href="/produto/seguranca">
                     <h3 className="title animated fadeIn">Segurança</h3>
                     <img
                       className="injectable"
                       src="/assets/images/service/icons/21.svg"
                       alt="arrow"
                     />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>

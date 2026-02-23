@@ -3,6 +3,7 @@
 
 "use client";
 
+import Link from "next/link";
 import BackToTop from "@/components/common/BackToTop";
 import FooterOne from "@/components/footer/FooterOne";
 import HeaderTwo from "@/components/header/HeaderTwo";
@@ -12,7 +13,7 @@ import { Icon } from "@iconify/react";
 
 export default function Home() {
   return (
-    <div>
+    <div className="#">
       <HeaderTwo />
 
       {/* banner */}
@@ -21,85 +22,45 @@ export default function Home() {
           <div className="row d-flex align-items-center">
             <div className="col-lg-7 mb_md--30 mb_sm--30">
               <div className="service-banner-content-wrapper">
-                <div
-                  className="bread-plug wow fadeInUp"
-                  data-wow-offset={120}
-                  data-wow-delay=".2s"
-                >
-                  <a href="/">Home</a>
+                <div className="bread-plug wow fadeInUp" data-wow-offset={120} data-wow-delay=".2s">
+                  <Link href="/">Home</Link>
                   <i className="fa-regular fa-chevron-right" />
-                  <a href="/produto/plataforma">Produto</a>
-                  <i className="fa-regular fa-chevron-right" />
-                  <a className="current" href="/produto/plataforma">
-                    Plataforma
-                  </a>
+                  <Link className="current" href="/produto/plataforma">Produto</Link>
                 </div>
 
-                <h1
-                  className="title wow fadeInUp"
-                  data-wow-offset={120}
-                  data-wow-delay=".4s"
-                >
+                <h1 className="title wow fadeInUp" data-wow-offset={120} data-wow-delay=".4s">
                   Produto Identiq para verificação, risco e compliance
                 </h1>
 
-                <p
-                  className="disc wow fadeInUp"
-                  data-wow-offset={120}
-                  data-wow-delay=".6s"
-                >
+                <p className="disc wow fadeInUp" data-wow-offset={120} data-wow-delay=".6s">
                   Uma plataforma para validar identidades, reduzir fraude e manter trilhas para auditoria,
                   com decisões em tempo real e integração via API e webhooks.
                 </p>
 
                 <div className="d-flex gap-3 mt--30">
-                  <a
-                    href="/produto/api"
-                    className="rts-btn btn-primary wow fadeInUp"
-                    data-wow-delay=".7s"
-                  >
+                  <Link href="/produto/api" className="rts-btn btn-primary wow fadeInUp" data-wow-delay=".7s">
                     Ver API
-                    <img
-                      className="injectable"
-                      src="/assets/images/service/icons/13.svg"
-                      alt="arrow"
-                    />
-                  </a>
-                  <a
-                    href="/contato"
-                    className="rts-btn btn-border btn-bold wow fadeInUp"
-                    data-wow-delay=".8s"
-                  >
+                    <img className="injectable" src="assets/images/service/icons/13.svg" alt="arrow" />
+                  </Link>
+                  <Link href="/contato" className="rts-btn btn-border btn-bold wow fadeInUp" data-wow-delay=".8s">
                     Falar com especialista
-                    <img src="/assets/images/service/icons/13.svg" alt="arrow" />
-                  </a>
+                    <img src="assets/images/service/icons/13.svg" alt="arrow" />
+                  </Link>
                 </div>
               </div>
             </div>
 
             <div className="col-lg-5">
               <div className="thumbnail-bannr-service-right jarallax">
-                <img
-                  className="jarallax-img"
-                  src="/assets/images/service/04.webp"
-                  alt="produto"
-                />
+                <img className="jarallax-img" src="assets/images/service/04.webp" alt="produto" />
               </div>
             </div>
           </div>
         </div>
 
         <div className="shape-area-start">
-          <img
-            src="/assets/images/banner/06.png"
-            alt="shape"
-            className="one wow move-right"
-          />
-          <img
-            src="/assets/images/banner/07.png"
-            alt="shape"
-            className="two wow move-left"
-          />
+          <img src="assets/images/banner/06.png" alt="shape" className="one wow move-right" />
+          <img src="assets/images/banner/07.png" alt="shape" className="two wow move-left" />
         </div>
       </div>
 
@@ -125,14 +86,10 @@ export default function Home() {
                   <Icon icon="mdi:view-dashboard-outline" width="44" height="44" />
                 </div>
                 <div className="title-area">
-                  <a href="/produto/plataforma">
+                  <Link href="/produto/plataforma">
                     <h3 className="title animated fadeIn">Plataforma</h3>
-                    <img
-                      className="injectable"
-                      src="/assets/images/service/icons/21.svg"
-                      alt="arrow"
-                    />
-                  </a>
+                    <img className="injectable" src="assets/images/service/icons/21.svg" alt="arrow" />
+                  </Link>
                 </div>
               </div>
             </div>
@@ -143,14 +100,10 @@ export default function Home() {
                   <Icon icon="mdi:api" width="44" height="44" />
                 </div>
                 <div className="title-area">
-                  <a href="/produto/api">
+                  <Link href="/produto/api">
                     <h3 className="title animated fadeIn">API e webhooks</h3>
-                    <img
-                      className="injectable"
-                      src="/assets/images/service/icons/21.svg"
-                      alt="arrow"
-                    />
-                  </a>
+                    <img className="injectable" src="assets/images/service/icons/21.svg" alt="arrow" />
+                  </Link>
                 </div>
               </div>
             </div>
@@ -161,14 +114,10 @@ export default function Home() {
                   <Icon icon="mdi:clipboard-check-outline" width="44" height="44" />
                 </div>
                 <div className="title-area">
-                  <a href="/produto/workflows">
+                  <Link href="/produto/workflows">
                     <h3 className="title animated fadeIn">Workflows e regras</h3>
-                    <img
-                      className="injectable"
-                      src="/assets/images/service/icons/21.svg"
-                      alt="arrow"
-                    />
-                  </a>
+                    <img className="injectable" src="assets/images/service/icons/21.svg" alt="arrow" />
+                  </Link>
                 </div>
               </div>
             </div>
@@ -179,14 +128,10 @@ export default function Home() {
                   <Icon icon="mdi:shield-check-outline" width="44" height="44" />
                 </div>
                 <div className="title-area">
-                  <a href="/produto/seguranca">
+                  <Link href="/produto/seguranca">
                     <h3 className="title animated fadeIn">Segurança</h3>
-                    <img
-                      className="injectable"
-                      src="/assets/images/service/icons/21.svg"
-                      alt="arrow"
-                    />
-                  </a>
+                    <img className="injectable" src="assets/images/service/icons/21.svg" alt="arrow" />
+                  </Link>
                 </div>
               </div>
             </div>
@@ -214,7 +159,7 @@ export default function Home() {
 
                 <div className="single-consulting-one">
                   <div className="thumbnail">
-                    <img src="/assets/images/consultancy/03.webp" alt="step" />
+                    <img src="assets/images/consultancy/03.webp" alt="step" />
                   </div>
                   <div className="right-area">
                     <h4 className="title">Evento do fluxo</h4>
@@ -227,7 +172,7 @@ export default function Home() {
 
                 <div className="single-consulting-one">
                   <div className="thumbnail">
-                    <img src="/assets/images/consultancy/04.webp" alt="step" />
+                    <img src="assets/images/consultancy/04.webp" alt="step" />
                   </div>
                   <div className="right-area">
                     <h4 className="title">Validações</h4>
@@ -240,7 +185,7 @@ export default function Home() {
 
                 <div className="single-consulting-one">
                   <div className="thumbnail">
-                    <img src="/assets/images/consultancy/05.webp" alt="step" />
+                    <img src="assets/images/consultancy/05.webp" alt="step" />
                   </div>
                   <div className="right-area">
                     <h4 className="title">Score e regras</h4>
@@ -253,7 +198,7 @@ export default function Home() {
 
                 <div className="single-consulting-one">
                   <div className="thumbnail">
-                    <img src="/assets/images/consultancy/06.webp" alt="step" />
+                    <img src="assets/images/consultancy/06.webp" alt="step" />
                   </div>
                   <div className="right-area">
                     <h4 className="title">Decisão e trilhas</h4>
